@@ -1,0 +1,103 @@
+@font-face{
+    font-family:'Inter';
+    src:url(../fonts/Inter-VariableFont_slnt,wght.ttf);
+    font-style: normal;
+    font-weight: 400 700;
+}
+
+body{
+    padding-top: 1%;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+
+nav a {
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    text-decoration:none;
+}
+
+nav a:hover{
+    color: rgb(245, 157, 35);
+}
+
+/*Inicia estilo de encabezado de página*/
+
+header{
+    text-align: left;
+    font-size: 10px;
+    font-weight: 700;
+    background-color: rgb(0, 0, 0);
+}
+
+header a{
+    color: rgb(0, 0, 0);
+}
+
+.logoencabezado{
+    height: 50px;
+    width: 50px;
+    object-fit: contain;
+}
+
+/*Termina estilo de encabezado de página*/
+
+/*Inicia estilo de menú de página*/
+
+nav{
+    font-size: 12px;
+    font-weight: 700;
+    color: rgb(93, 95, 121);
+    text-align: left;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+/*Termina estilo de menú de página*/
+
+/* ul{
+    padding: 0;
+    list-style: none;
+    margin: 0;
+}
+
+.navegación a{
+    display: block;
+    text-decoration: none;
+    color: #f5f0ed;
+} */
+
+.menu_hamburguesa{
+    position: absolute;
+    top: 4%;
+    right: 2%;
+    display: inline-block;
+    color: rgb(255, 255, 255);
+}
+
+#menú:not(.visible){ display: none }
+#menú.visible{ 
+  display: block;
+  position: absolute;
+  width: 98%;
+  top: 55px;
+  right: 2%;
+  background-color: #101010;
+}
+
+.foto1{
+    margin: 0;
+    padding: 0;
+    height: auto;
+    width: 100%;
+    object-fit: contain;
+}
