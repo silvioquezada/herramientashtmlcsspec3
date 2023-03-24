@@ -6,14 +6,13 @@
 }
 
 body{
-    padding-top: 1%;
+    padding-top: 0%;
     padding-left: 0;
     padding-right: 0;
     padding-bottom: 0;
     margin: 0;
     font-family: 'Inter', sans-serif;
 }
-
 
 nav a {
     color: rgb(255, 255, 255);
@@ -26,7 +25,6 @@ nav a:hover{
 }
 
 /*Inicia estilo de encabezado de página*/
-
 header{
     text-align: left;
     font-size: 10px;
@@ -43,13 +41,11 @@ header a{
     width: 50px;
     object-fit: contain;
 }
-
 /*Termina estilo de encabezado de página*/
 
 /*Inicia estilo de menú de página*/
-
 nav{
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 700;
     color: rgb(93, 95, 121);
     text-align: left;
@@ -62,29 +58,19 @@ nav ul{
     width: 100%;
 }
 
-/*Termina estilo de menú de página*/
-
-/* ul{
-    padding: 0;
-    list-style: none;
-    margin: 0;
-}
-
-.navegación a{
-    display: block;
-    text-decoration: none;
-    color: #f5f0ed;
-} */
-
 .menu_hamburguesa{
     position: absolute;
-    top: 4%;
+    top: 2%;
     right: 2%;
     display: inline-block;
     color: rgb(255, 255, 255);
+    font-size: 25px;
 }
 
-#menú:not(.visible){ display: none }
+#menú:not(.visible){
+    display: none;
+}
+
 #menú.visible{ 
   display: block;
   position: absolute;
@@ -93,11 +79,238 @@ nav ul{
   right: 2%;
   background-color: #101010;
 }
+/*Termina estilo de menú de página*/
 
-.foto1{
+/*Inicia estilo de Fotos Portada*/
+.fotoprincipalportada{
     margin: 0;
     padding: 0;
     height: auto;
     width: 100%;
     object-fit: contain;
 }
+
+.boxportada{
+    text-align: center;
+}
+
+.fotoportada{
+    margin: 0;
+    padding: 0;
+    height: auto;
+    width: 100%;
+    object-fit: contain;
+}
+
+.boxcontenedorportada .boxportada .textolinkfotosportada{
+    margin-top: 1%;
+    margin-bottom: 8%;
+    padding: 1%;
+}
+
+.textoespecialidad{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding: 0%;
+}
+/*Termina estilo de Fotos Portada*/
+
+/*Inicia estilo de Footer*/
+footer{
+    padding-top: 1%;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    display: block;
+}
+
+footer button{
+    color: rgb(255, 255, 255);
+    background-color: rgb(240, 93, 80);
+    padding: 10px 1em;
+    border: 0;
+    margin-top: 15px;
+    margin-bottom: 35px;
+    font-size: 16px;
+}
+
+footer a{
+    color: rgb(255, 255, 255);
+}
+
+.textogd{
+    font-size: 14px;
+    padding: 25px;
+}
+
+.textomd{
+    font-size: 12px;
+}
+
+.textosm{
+    font-size: 9px;
+    padding-top: 25px;
+    padding-bottom: 35px;
+}
+
+.textosm div{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+footer .bloque a{
+    display: block;
+}
+/*Termina estilo de Footer*/
+
+@media screen and (min-width: 400px) {
+    .contenedor {
+        display: grid;
+        grid-template-columns: repeat(8, minmax(0,1fr));
+        gap: 0%;
+    }
+
+    #menú:not(.visible){
+        display: none;
+    }
+    
+    #menú.visible{ 
+    display: block;
+    position: absolute;
+    width: 98%;
+    top: 55px;
+    right: 2%;
+    background-color: #101010;
+    }
+
+    header {
+        grid-column: 1 / 9;
+        grid-row: 1;
+
+        text-align: left;
+    }
+    
+    nav {
+        background-color: rgb(39, 202, 77);
+        grid-column: 2 / 8;
+        grid-row: 2;
+    }
+    
+    
+    main {
+        grid-column: 2 / 8;
+        grid-row: 3;
+    }
+    
+    footer {
+        grid-column: 1 / 9;
+        grid-row: 4;
+    }
+
+    /*Inicia boxtitulo de articulo*/
+    .boxtitulo{
+        padding-top: 3%;
+        padding-bottom: 1%;
+    }
+    /*Termina boxtitulo de articulo*/
+
+    /*Inicia resolucion de portada*/
+    .boxcontenedorportada{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 3%;
+    }
+
+    .boxportada{
+        text-align: left;
+    }
+
+ 
+     nav, header, main, article{
+        margin: 0;
+        padding: 0;
+     }
+    
+
+}
+
+@media screen and (min-width: 800px) {
+    .contenedor {
+        display: grid;
+        grid-template-columns: repeat(12, minmax(0,1fr));
+        gap:0%;
+    }
+    
+    #enlace_menu:not(.visible){
+        display: none;
+    }
+
+    #menú:not(.visible){
+        display: block;
+    }
+
+    header {
+        grid-column: 1 / 3;
+        grid-row: 1;
+        text-align: left;
+    }
+    
+    nav {
+        border: 1px solid rgb(46, 151, 25);
+        background-color: black;
+
+        grid-column: 3 / 13;
+        grid-row: 1;
+        
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: end;
+        text-align: right;
+        align-items: center;
+    }
+
+    nav a {
+        color: rgb(255, 255, 255);
+        font-weight: 700;
+        text-decoration:none;
+    }
+    
+    main {
+        grid-column: 2 / 12;
+        grid-row: 2;
+    }
+    
+    footer {
+        grid-column: 1 / 13;
+        grid-row: 3;
+    }
+    
+    nav ul li{
+        display: inline-block;
+        padding-left: 12px;
+    }
+
+    /*Inicia boxtitulo de articulo*/
+    .boxtitulo{
+        padding-top: 0%;
+        padding-bottom: 1%;
+    }
+    /*Termina boxtitulo de articulo*/
+   
+    /*Inicia resolucion de portada*/
+    .boxcontenedorportada{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        column-gap: 3%;
+    }
+
+    .boxcontenedorreferente{
+        text-align: left;
+    }
+    /*Termina resolucion de portada*/
+
+    footer .bloque a{
+        display: inline;
+    }
+}
+/*Termina definición del sistema Grid*/
