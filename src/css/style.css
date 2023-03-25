@@ -29,7 +29,7 @@ header{
     text-align: left;
     font-size: 10px;
     font-weight: 700;
-    background-color: rgb(0, 0, 0);
+    background-color: #1FAF0E;
 }
 
 header a{
@@ -107,8 +107,9 @@ nav ul{
     margin-bottom: 8%;
     padding: 1%;
 }
+/*Termina estilo de Fotos Portada*/
 
-.textoespecialidad{
+.textoportada{
     margin-top: 1%;
     margin-bottom: 1%;
     padding: 0%;
@@ -119,7 +120,7 @@ nav ul{
 footer{
     padding-top: 1%;
     color: rgb(255, 255, 255);
-    background-color: rgb(0, 0, 0);
+    background-color: #1FAF0E;
     text-align: center;
     display: block;
 }
@@ -214,7 +215,7 @@ footer .bloque a{
     }
     /*Termina boxtitulo de articulo*/
 
-    /*Inicia resolucion de portada*/
+    /*Inicia estilo de Fotos Portada*/
     .boxcontenedorportada{
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -225,6 +226,14 @@ footer .bloque a{
         text-align: left;
     }
 
+    .fotoportada{
+        margin: 0;
+        padding: 0;
+        height: 135px;
+        width: 100%;
+        object-fit: contain;
+    }
+    /*Termina estilo de Fotos Portada*/
  
      nav, header, main, article{
         margin: 0;
@@ -256,8 +265,8 @@ footer .bloque a{
     }
     
     nav {
-        border: 1px solid rgb(46, 151, 25);
-        background-color: black;
+        /*border: 1px solid rgb(46, 151, 25);*/
+        background-color: #1FAF0E;
 
         grid-column: 3 / 13;
         grid-row: 1;
@@ -297,17 +306,25 @@ footer .bloque a{
     }
     /*Termina boxtitulo de articulo*/
    
-    /*Inicia resolucion de portada*/
+    /*Inicia estilo de Fotos Portada*/
     .boxcontenedorportada{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         column-gap: 3%;
     }
 
-    .boxcontenedorreferente{
+    .boxportada{
         text-align: left;
     }
-    /*Termina resolucion de portada*/
+
+    .fotoportada{
+        margin: 0;
+        padding: 0;
+        height: auto;
+        width: 100%;
+        object-fit: contain;
+    }
+    /*Termina estilo de Fotos Portada*/
 
     footer .bloque a{
         display: inline;

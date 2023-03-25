@@ -21,5 +21,8 @@
   "homepage": "https://github.com/silvioquezada/herramientashtmlcsspec1#readme",
   "devDependencies": {
     "parcel": "^2.8.3"
+  },
+  "dependencies": {
+    "@glidejs/glide": "^3.6.0"
   }
 }
