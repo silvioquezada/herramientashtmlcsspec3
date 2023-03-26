@@ -94,12 +94,25 @@ nav ul{
     text-align: center;
 }
 
-.fotoportada{
-    margin: 0;
-    padding: 0;
-    height: auto;
+/*
+.contenedorsliderfotosportada{
+    border: 2px solid rgb(33, 241, 67);
+    height: 350px;
+}
+*/
+
+.fotoslider{
     width: 100%;
-    object-fit: contain;
+    height: 300px;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+.fotoportada{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: bottom;
 }
 
 .boxcontenedorportada .boxportada .textolinkfotosportada{
@@ -226,12 +239,18 @@ footer .bloque a{
         text-align: left;
     }
 
-    .fotoportada{
-        margin: 0;
-        padding: 0;
-        height: 135px;
+    .fotoslider{
         width: 100%;
-        object-fit: contain;
+        height: 225px;
+        object-fit: cover;
+        object-position: bottom;
+    }
+
+    .fotoportada{
+        width: 100%;
+        height: 150px;
+        object-fit: cover;
+        object-position: bottom;
     }
     /*Termina estilo de Fotos Portada*/
  
@@ -317,14 +336,20 @@ footer .bloque a{
         text-align: left;
     }
 
-    .fotoportada{
-        margin: 0;
-        padding: 0;
-        height: auto;
+    .fotoslider{
         width: 100%;
-        object-fit: contain;
+        height: 300px;
+        object-fit: cover;
+        object-position: bottom;
     }
     /*Termina estilo de Fotos Portada*/
+   
+    .fotoportada{
+        width: 100%;
+        height: 150px;
+        object-fit: cover;
+        object-position: bottom;
+    }
 
     footer .bloque a{
         display: inline;

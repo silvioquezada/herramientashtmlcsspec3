@@ -40,22 +40,26 @@
         
         
         <main>
+
+
           <section>
             <article>
               <h1>Lugares Turísticos en el ORO</h1>
 
-              <div class="glide">
-                <div class="glide__track" data-glide-el="track">
-                  <ul class="glide__slides">
-                    <li class="glide__slide"><img class="fotoportada" src="img/portada1.png"></li>
-                    <li class="glide__slide"><img class="fotoportada" src="img/portada2.jpg"></li>
-                    <li class="glide__slide"><img class="fotoportada" src="img/portada3.webp"></li>
-                  </ul>
-                </div>
-                <div data-glide-el="controls">
-                  <button data-glide-dir="<">Atrás</button>
-                  <button data-glide-dir=">">Siguiente</button>
-                </div>
+              <div class="contenedorsliderfotosportada">
+                  <div class="glide">
+                    <div class="glide__track" data-glide-el="track">
+                      <ul class="glide__slides">
+                        <li class="glide__slide"><img class="fotoslider" src="img/portada1.png"></li>
+                        <li class="glide__slide"><img class="fotoslider" src="img/portada2.jpg"></li>
+                        <li class="glide__slide"><img class="fotoslider" src="img/portada3.webp"></li>
+                      </ul>
+                    </div>
+                    <div data-glide-el="controls">
+                      <button class="glide__arrow glide__arrow--left" data-glide-dir="<">Atrás</button>
+                      <button class="glide__arrow glide__arrow--right"  data-glide-dir=">">Siguiente</button>
+                    </div>
+                  </div>
               </div>
 
              
@@ -120,7 +124,15 @@
         <script>
           const config = {
             type: 'carousel',
-            perView: 2
+            perView: 3,
+            breakpoints:{
+              400:{
+                perView: 1
+              },
+              800:{
+                perView: 2
+              }
+            }
           };
           new Glide('.glide', config).mount();
         </script>
