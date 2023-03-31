@@ -1,5 +1,5 @@
 function clickMenu(){
-    document.getElementById('menú')
+    document.getElementById('menu')
             .classList
             .toggle('visible');
   }
