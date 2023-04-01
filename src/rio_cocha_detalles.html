@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Rios de El Oro</title>
+        <meta charset="utf-8">
+        <meta name="title" content="Index">
+        <meta name="author" content="Silvio Quezada">
+        <meta name="description" content="PEC 1 de la asignatura Herramientas HTML y CSS">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="css/style.css" type="text/css">
+
+        <!-- Required Core Stylesheet -->
+        <link rel="stylesheet" href="../node_modules/@glidejs/glide/dist/css/glide.core.min.css">
+        <link rel="stylesheet" href="../node_modules/@glidejs/glide/dist/css/glide.theme.min.css">
+      </head>
+      <body class="contenedor">
+        <header id="encabezado">
+          <div>
+            <a href="index.html"><img src="img/logo.png" class="logoencabezado" alt="Imagen Logo"></a>
+          </div>
+        </header>
+        
+        <nav>
+          <a href="#encabezado"
+            id="enlace_menu"
+            class="menu_hamburguesa"
+            onclick="clickMenu()"   
+          >☰</a>
+
+          <div id="menu" class="navegacion">
+            <ul>
+              <li class="link_menu"><a href="index.html">Inicio</a></li>
+              <li class="link_menu"><a href="categorias.html">Categorías</a></li>
+              <li class="link_menu"><a href="acerca.html">Acerca del Sitio</a></li>
+              <li class="link_menu"><a href="referencias.html">Referencias</a></li>
+            </ul>
+          </div>
+
+        </nav>
+        
+        
+        <main>
+         
+          <section class="contenedorcontenido">
+            <article class="contenedordetallecategoria">
+                
+  
+                    
+                        <div class="boxfotodetalle">
+                            <h1 class="textotitulo">Rio La Cocha</h1>
+                            <p>Balneario La Cocha Ubicada en Pasaje, Provincia de El Oro, conocida por sus aguas templadas y su majestuosa vista que la naturaleza brinda a este cantón, donde se podrán disfrutar de exquisitos patos tradicionales. </p>
+                            <div  class="seccionboxfotodetalle">
+                              <img src="img/rios_portada.jpg" class="fotosecciondetalle" alt="Imagen Rio la cocha">
+                            </div>
+
+                            
+
+                            
+                            <div>
+                              <div class="seccionboxiconos">
+                                <div class="boxicono">
+                                  <img src="img/ubicacion.png" class="iconos" alt="Imagen Rio la cocha">
+                                  <p class="textoportada">Vía Panamericana Sur (Machala-Cuenca) en el río Casacay</p>
+                                </div>
+                                
+                                <div class="boxicono">
+                                  <img src="img/calendario.png" class="iconos" alt="Imagen Rio la cocha">
+                                  <p class="textoportada">Horario Libre</p>
+                                </div>
+
+                              </div>
+                              
+                              <p>Balneario La Cocha Ubicada en Pasaje, Provincia de El Oro, conocida por sus aguas templadas y su majestuosa vista que la naturaleza brinda a este cantón, donde se podrán disfrutar de exquisitos patos tradicionales.</p>
+
+                              <p>En las orillas del río Casacay se encuentra  el Balneario La Cocha, ubicado en la parroquia Casacay, del cantón Pasaje. Este balneario es visitado por turistas tanto nacionales como extranjeros quienes puedan disfrutar del agua y de la naturaleza que lo rodea. Aquí se han depositado gigantezcas piedras, las que llaman la atención por sus caprichosas formas dando realce al paisaje.</p>
+
+                              <p>El acceso al agua está conformado de arena y piedras, además se han construido escaleras de cemento en sus bordes,lo que permite a la gente ingresar al río de manera cómoda y segura y brinda espacios para compartir en familia.</p>
+
+                              <p>Dentro de la fauna se pudo observar algunas especies como: guanta, ardillas, armadillos, mirlos, colibríes, serpientes equis, lombriz de tierra, lagartijas y otros.</p>
+
+                              <p>Afortunadamente en el Balneario existe un lugar donde se pueden servir los alimentos, disfrutar de la típico plato del Cantón Pasaje  que es  Sudado Mixto, el cual combina los distintos productos del mar y manglar, como el pescado, cangrejo, churo y la concha.</p>
+
+
+                            </div>
+                            
+                            
+
+                         
+                             
+                            
+                            
+                        </div>
+             
+                    
+
+                    
+        
+
+            </article>
+
+           
+
+           </section>
+        </main>
+        
+       
+        
+        <footer>
+          <div>
+            <img src="img/logo.png" class="logoencabezado" alt="Imagen Logo">
+          </div>
+          <div class="textosm">
+            <div>2022 - Actividad realizada por Silvio Vinicio Quezada Puchaicela</div>
+            <div>Web realizada con fines educativo</div>
+            <div><a href="https://biblioteca.uoc.edu/es/biblioguias/biblioguia/Mujeres-ciencia-y-tecnologia/">Sitio Web diseñado a partir de otros enlaces de sitios web</a></div>
+          </div>
+           
+        </footer>
+    
+        <script src="js/app.js"></script>
+        <script src="../node_modules/@glidejs/glide/dist/glide.min.js"></script>
+        <script>
+          const config = {
+            type: 'carousel',
+            perView: 1,
+            breakpoints:{
+              400:{
+                perView: 1
+              },
+              800:{
+                perView: 1
+              }
+            }
+          };
+          new Glide('.glide', config).mount();
+        </script>
+      </body>
+</html>

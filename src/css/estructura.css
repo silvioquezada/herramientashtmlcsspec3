@@ -12,7 +12,13 @@ body{
     padding-bottom: 0;
     margin: 0;
     font-family: 'Inter', sans-serif;
-    font-size: 14px;
+    font-size: 20px;
+    background-color: #F6F9FE;
+}
+
+a {
+    font-weight: 700;
+    text-decoration:none;
 }
 
 nav a {
@@ -21,7 +27,7 @@ nav a {
     text-decoration:none;
 }
 
-nav a:hover{
+a:hover{
     color: rgb(245, 157, 35);
 }
 
@@ -111,14 +117,23 @@ footer a{
 
 /*Inicia textos*/
 .textotitulo{
+    color: #333333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 30px;
+}
+
+.textolink{
+    color: #333333;
     padding-top: 0;
     padding-bottom: 0;
     text-align: center;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .textotitulomd{
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 700;
     text-align: left;
     margin-top: 1%;
@@ -207,10 +222,11 @@ footer a{
 
      /*Inicia Textos*/
     .textotitulo{
-        padding-top: 1%;
-        padding-bottom: 1%;
+        color: #333333;
+        margin: 0;
+        padding: 0;
         text-align: center;
-        font-size: 18px;
+        font-size: 30px;
     }
     /*Finaliza Textos*/
 }
@@ -262,6 +278,8 @@ footer a{
     main {
         grid-column: 1 / 13;
         grid-row: 2;
+        border: 1px solid rgb(54, 233, 18);
+        
     }
     
     footer {
@@ -274,20 +292,34 @@ footer a{
         padding-left: 12px;
     }
 
+    article{
+        border: 1px solid rgb(54, 233, 18);
+        padding: 0;
+        margin: 0;
+    }
+
     /*Inicia textotitulo de articulo*/
     .textotitulo{
-        padding-top: 1%;
-        padding-bottom: 1%;
+        border: 1px solid rgb(54, 233, 18);
+        color: #333333;
+        margin: 0;
+        padding: 0;
         text-align: center;
-        font-size: 18px;
+        font-size: 30px;
     }
     /*Termina textotitulo de articulo*/
 
     /*Inicia Contenedor de Sección*/
     .contenedorcontenido{
+        border: 1px solid rgb(49, 10, 190);
         margin: 1%;
-        padding: 1%;
+        padding-top: 0;
     }
     /*Termina Contenedor de Sección*/
+
+    .textocontenido{
+        border: 1px solid rgb(49, 10, 190);
+        margin-top: 0.5%;
+    }
 }
 

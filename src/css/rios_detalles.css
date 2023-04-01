@@ -1,0 +1,91 @@
+/*
+.seccionboxiconos
+{
+    display: flex;
+}
+
+.boxicono
+{
+    display: flex;
+}
+
+.seccionfoto
+{
+    width: 100%;
+}
+
+@media screen and (min-width: 400px) {
+    .seccionboxiconos
+    {
+        display: flex;
+    }
+
+    .boxicono
+    {
+        display: flex;
+    }
+
+    .seccionfoto
+    {
+        width: 100%;
+    }
+}
+*/
+
+@media screen and (min-width: 800px) {
+    .contenedordetallecategoria
+    {
+        border: 1px solid rgb(49, 10, 190);
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        padding-top: 0;
+        margin-top: 0;
+    }
+
+    /*
+    
+
+    
+
+    
+    */
+
+    .boxfotodetalle{
+        border: 1px solid #EEEEEE;
+        background-color: rgb(255, 255, 255);
+        /*
+        text-align: left;
+        display: flex;
+        flex-flow: column;
+        padding-top: 0;
+        */
+    }
+
+    .seccionboxfotodetalle
+    {
+        border: 1px solid rgb(7, 11, 235);
+        background: aqua;
+        text-align: center;
+    }
+
+    .seccionboxiconos
+    {
+        display: flex;
+    }
+
+    .fotosecciondetalle
+    {
+        height: 300px;
+        width: 80%;
+    }
+
+    .boxicono
+    {
+        padding-right: 3%;
+        text-align: left;
+        display: flex;
+        flex-flow: row;
+        align-items: center;
+    }
+
+}

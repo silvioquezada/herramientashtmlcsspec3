@@ -17,13 +17,14 @@
     object-position: bottom;
 }
 
-.boxcontenedorportada .boxportada .textolinkfotosportada{
+.boxcontenedorportada .boxportada .textolink{
     margin-top: 1%;
-    margin-bottom: 8%;
+    margin-bottom: 7%;
     padding: 1%;
 }
 
 .textoportada{
+    font-weight: 700;
     margin-top: 1%;
     margin-bottom: 1%;
     padding: 0%;
