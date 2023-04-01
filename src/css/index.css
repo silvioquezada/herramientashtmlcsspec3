@@ -1,0 +1,87 @@
+/*Inicia estilo de Fotos Portada*/
+.boxportada{
+    text-align: center;
+}
+
+.fotoslider{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+.fotoportada{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+.boxcontenedorportada .boxportada .textolinkfotosportada{
+    margin-top: 1%;
+    margin-bottom: 8%;
+    padding: 1%;
+}
+
+.textoportada{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding: 0%;
+}
+/*Termina estilo de Fotos Portada*/
+
+@media screen and (min-width: 400px) {
+    /*Inicia estilo de Fotos Portada*/
+    .boxcontenedorportada{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 3%;
+    }
+
+    .boxportada{
+        text-align: left;
+    }
+
+    .fotoslider{
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        object-position: bottom;
+    }
+
+    .fotoportada{
+        width: 100%;
+        height: 150px;
+        object-fit: cover;
+        object-position: bottom;
+    }
+    /*Termina estilo de Fotos Portada*/
+}
+
+@media screen and (min-width: 800px) {
+    /*Inicia estilo de Fotos Portada*/
+    .boxcontenedorportada{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        column-gap: 3%;
+    }
+
+    .boxportada{
+        text-align: left;
+    }
+
+    .fotoslider{
+        width: 100%;
+        height: 400px;
+        object-fit: cover;
+        object-position: bottom;
+    }
+    /*Termina estilo de Fotos Portada*/
+   
+    .fotoportada{
+        width: 100%;
+        height: 150px;
+        object-fit: cover;
+        object-position: bottom;
+    }
+}

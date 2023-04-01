@@ -1,0 +1,58 @@
+.seccionboxiconos
+{
+    display: flex;
+}
+
+.boxicono
+{
+    display: flex;
+}
+
+.seccionfoto
+{
+    width: 100%;
+}
+
+@media screen and (min-width: 400px) {
+    .seccionboxiconos
+    {
+        display: flex;
+    }
+
+    .boxicono
+    {
+        display: flex;
+    }
+
+    .seccionfoto
+    {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .seccionfoto
+    {
+        height: 300px;
+        width: 450px;
+    }
+
+    .seccionboxiconos
+    {
+        display: flex;
+    }
+
+    .boxicono
+    {
+        display: flex;
+    }
+
+    .boxfoto{
+        text-align: left;
+        display: flex;
+        flex-flow: row;
+    }
+
+    
+
+}
