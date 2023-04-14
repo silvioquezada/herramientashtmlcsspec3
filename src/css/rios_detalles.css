@@ -1,19 +1,16 @@
+.seccionboxfotodetalle
+{
+    border: 1px solid rgb(7, 11, 235);
+    text-align: center;
+}
+
+.fotosecciondetalle
+{
+    height: auto;
+    width: 80%;
+}
+
 /*
-.seccionboxiconos
-{
-    display: flex;
-}
-
-.boxicono
-{
-    display: flex;
-}
-
-.seccionfoto
-{
-    width: 100%;
-}
-
 @media screen and (min-width: 400px) {
     .seccionboxiconos
     {
@@ -41,14 +38,6 @@
         padding-top: 0;
         margin-top: 0;
     }
-
-    /*
-    
-
-    
-
-    
-    */
 
     .boxfotodetalle{
         border: 1px solid #EEEEEE;
