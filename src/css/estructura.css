@@ -13,7 +13,7 @@ body{
     margin: 0;
     font-family: 'Inter', sans-serif;
     font-size: 20px;
-    background-color: #F6F9FE;
+    background-color: #ffffff;
 }
 
 a {
@@ -40,7 +40,7 @@ header{
 }
 
 header a{
-    color: rgb(0, 0, 0);
+    color: #333333;
 }
 
 .logoencabezado{
@@ -160,6 +160,39 @@ footer a{
     object-position: bottom;
 }
 
+p {
+    text-align: justify;
+}
+
+/*Inicia Card*/
+.boxcard{
+    text-align: left;
+    box-shadow: 2px 2px 8px 4px #d3d3d3d1;
+    border-radius:15px;
+    margin-bottom: 5%;
+}
+
+.cuerpocard{
+    padding: 2%;
+}
+
+.piecard{
+    background: #1FAF0E;
+    border-radius:0 0 15px 15px;
+    padding: 10px;
+    text-align:center;
+}
+
+.piecard a{
+    text-decoration: none;
+    color: white;
+}
+
+.piecard a:hover{
+    color: rgb(245, 157, 35);
+}
+/*Termina Card*/
+
 @media screen and (min-width: 400px) {
     .contenedor {
         display: grid;
@@ -278,8 +311,6 @@ footer a{
     main {
         grid-column: 1 / 13;
         grid-row: 2;
-        border: 1px solid rgb(54, 233, 18);
-        
     }
     
     footer {
@@ -293,14 +324,12 @@ footer a{
     }
 
     article{
-        border: 1px solid rgb(54, 233, 18);
         padding: 0;
         margin: 0;
     }
 
     /*Inicia textotitulo de articulo*/
     .textotitulo{
-        border: 1px solid rgb(54, 233, 18);
         color: #333333;
         margin: 0;
         padding: 0;
@@ -311,14 +340,12 @@ footer a{
 
     /*Inicia Contenedor de Sección*/
     .contenedorcontenido{
-        border: 1px solid rgb(49, 10, 190);
         margin: 1%;
         padding-top: 0;
     }
     /*Termina Contenedor de Sección*/
 
     .textocontenido{
-        border: 1px solid rgb(49, 10, 190);
         margin-top: 0.5%;
     }
 }

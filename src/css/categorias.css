@@ -24,13 +24,6 @@
     gap: 2%;
 }
 
-.seccionboxfoto
-{
-    border: 1px solid #EEEEEE;
-    background-color: rgb(255, 255, 255);
-    margin-bottom: 3%;
-}
-
 .fotoseccion
 {
     width: 100%;
@@ -46,13 +39,6 @@
         gap: 1%;
     }
 
-    .seccionboxfoto
-    {
-        border: 1px solid #EEEEEE;
-        background-color: rgb(255, 255, 255);
-        
-    }
-
     .fotoseccion
     {
         width: 100%;
@@ -60,10 +46,7 @@
 }
 
 @media screen and (min-width: 800px) {
-    .contenedorcategoria
-    {
-        border: 1px solid rgb(49, 10, 190);
-    }
+   
 
     .boxicono
     {
@@ -73,20 +56,12 @@
     }
 
     .boxfoto{
-        border: 1px solid rgb(67, 190, 10);
         font-size: 14px;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         column-gap: 3%;
         row-gap: 3%;
         color: #333333;
-    }
-
-    .seccionboxfoto
-    {
-        border: 1px solid #EEEEEE;
-        background-color: rgb(255, 255, 255);
-       
     }
 
     .fotoseccion
