@@ -172,6 +172,23 @@ p {
     margin-bottom: 5%;
 }
 
+.titulocard{
+    font-weight: 700;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding: 0%;
+    text-align: center;
+}
+
+.textocard{
+    font-weight: 700;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding: 0%;
+    text-align: left;
+    font-size: 16px;
+}
+
 .cuerpocard{
     padding: 2%;
 }
@@ -241,7 +258,7 @@ p {
         grid-row: 4;
     }
 
-    nav, header, main, article{
+    nav, header, main{
     margin: 0;
     padding: 0;
     }
@@ -321,11 +338,6 @@ p {
     nav ul li{
         display: inline-block;
         padding-left: 12px;
-    }
-
-    article{
-        padding: 0;
-        margin: 0;
     }
 
     /*Inicia textotitulo de articulo*/

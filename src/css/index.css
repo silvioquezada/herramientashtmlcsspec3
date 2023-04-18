@@ -27,13 +27,6 @@
     padding: 1%;
 }
 
-.titulocard{
-    font-weight: 700;
-    margin-top: 1%;
-    margin-bottom: 1%;
-    padding: 0%;
-    text-align: center;
-}
 /*Termina estilo de Fotos Portada*/
 
 @media screen and (min-width: 400px) {
@@ -71,9 +64,6 @@
         grid-template-columns: 1fr 1fr 1fr 1fr;
         column-gap: 3%;
     }
-
-    
-
 
     .fotoslider{
         width: 100%;
