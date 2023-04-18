@@ -8,10 +8,6 @@
         <meta name="description" content="PEC 1 de la asignatura Herramientas HTML y CSS">
         <meta name="viewport" content="width=device-width">
         <link rel="stylesheet" href="css/style.css" type="text/css">
-
-        <!-- Required Core Stylesheet -->
-        <link rel="stylesheet" href="../node_modules/@glidejs/glide/dist/css/glide.core.min.css">
-        <link rel="stylesheet" href="../node_modules/@glidejs/glide/dist/css/glide.theme.min.css">
       </head>
       <body class="contenedor">
         <header id="encabezado">
@@ -49,11 +45,8 @@
                       <h1 class="textotitulo">Rio La Cocha</h1>
                       <p>Balneario La Cocha Ubicada en Pasaje, Provincia de El Oro, conocida por sus aguas templadas y su majestuosa vista que la naturaleza brinda a este cantón, donde se podrán disfrutar de exquisitos patos tradicionales.</p>
                       <div  class="seccionboxfotodetalle">
-                        <img src="img/rios_portada.jpg" class="fotosecciondetalle" alt="Imagen Rio la cocha">
+                        <img src="img/rios/pasaje/cocha.jpg" class="fotosecciondetalle" alt="Imagen Rio la cocha">
                       </div>
-
-                      
-
                       
                       <div>
                         <div class="seccionboxiconos">
@@ -79,6 +72,13 @@
 
                         <p>Afortunadamente en el Balneario existe un lugar donde se pueden servir los alimentos, disfrutar de la típico plato del Cantón Pasaje  que es  Sudado Mixto, el cual combina los distintos productos del mar y manglar, como el pescado, cangrejo, churo y la concha.</p>
 
+                        <p>Actividades Recreacionales:</p>
+
+                        <ul>
+                          <li>Caminatas</li>
+                          <li>Natacion</li>
+                          <li>Tubing</li>
+                        </ul>
 
                       </div>
                       
@@ -167,21 +167,5 @@
         </footer>
     
         <script src="js/app.js"></script>
-        <script src="../node_modules/@glidejs/glide/dist/glide.min.js"></script>
-        <script>
-          const config = {
-            type: 'carousel',
-            perView: 1,
-            breakpoints:{
-              400:{
-                perView: 1
-              },
-              800:{
-                perView: 1
-              }
-            }
-          };
-          new Glide('.glide', config).mount();
-        </script>
       </body>
 </html>
