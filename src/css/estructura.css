@@ -124,6 +124,15 @@ footer a{
     font-size: 30px;
 }
 
+.textosubtitulo{
+    color: #333333;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    font-size: 25px;
+    font-weight: 700;
+}
+
 .textolink{
     color: #333333;
     padding-top: 0;
