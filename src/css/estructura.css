@@ -31,16 +31,16 @@ a:hover{
     color: rgb(245, 157, 35);
 }
 
+.textoenlace{
+    color: #333333;
+}
+
 /*Inicia estilo de encabezado de página*/
 header{
     text-align: left;
     font-size: 14px;
     font-weight: 700;
     background-color: #1FAF0E;
-}
-
-header a{
-    color: #333333;
 }
 
 .logoencabezado{
@@ -173,52 +173,6 @@ p {
     text-align: justify;
 }
 
-/*Inicia Card*/
-.boxcard{
-    text-align: left;
-    box-shadow: 2px 2px 8px 4px #d3d3d3d1;
-    border-radius:15px;
-    margin-bottom: 5%;
-}
-
-.titulocard{
-    font-weight: 700;
-    margin-top: 1%;
-    margin-bottom: 1%;
-    padding: 0%;
-    text-align: center;
-}
-
-.textocard{
-    font-weight: 700;
-    margin-top: 1%;
-    margin-bottom: 1%;
-    padding: 0%;
-    text-align: left;
-    font-size: 16px;
-}
-
-.cuerpocard{
-    padding: 2%;
-}
-
-.piecard{
-    background: #1FAF0E;
-    border-radius:0 0 15px 15px;
-    padding: 10px;
-    text-align:center;
-}
-
-.piecard a{
-    text-decoration: none;
-    color: white;
-}
-
-.piecard a:hover{
-    color: rgb(245, 157, 35);
-}
-/*Termina Card*/
-
 @media screen and (min-width: 400px) {
     .contenedor {
         display: grid;
@@ -348,7 +302,7 @@ p {
         display: inline-block;
         padding-left: 12px;
     }
-
+    
     /*Inicia textotitulo de articulo*/
     .textotitulo{
         color: #333333;

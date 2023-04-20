@@ -1,18 +1,15 @@
 /*Inicia estilo de Fotos Portada*/
-.boxcard{
-    text-align: center;
+.boxcontenedorportada{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .fotoslider{
     width: 100%;
     height: 300px;
-    object-fit: cover;
-    object-position: bottom;
-}
-
-.fotocard{
-    width: 100%;
-    height: 200px;
     object-fit: cover;
     object-position: bottom;
 }
@@ -26,31 +23,21 @@
     margin-bottom: 1%;
     padding: 1%;
 }
-
 /*Termina estilo de Fotos Portada*/
 
 @media screen and (min-width: 400px) {
     /*Inicia estilo de Fotos Portada*/
     .boxcontenedorportada{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        column-gap: 3%;
-    }
-
-    .boxcard{
-        text-align: left;
+        margin-top: 3%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
     }
 
     .fotoslider{
         width: 100%;
         height: 300px;
-        object-fit: cover;
-        object-position: bottom;
-    }
-
-    .fotocard{
-        width: 100%;
-        height: 150px;
         object-fit: cover;
         object-position: bottom;
     }
@@ -60,8 +47,9 @@
 @media screen and (min-width: 800px) {
     /*Inicia estilo de Fotos Portada*/
     .boxcontenedorportada{
+        margin-top: 0;
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
         column-gap: 3%;
     }
 
@@ -72,11 +60,4 @@
         object-position: bottom;
     }
     /*Termina estilo de Fotos Portada*/
-   
-    .fotocard{
-        width: 100%;
-        height: 150px;
-        object-fit: cover;
-        object-position: bottom;
-    }
 }
