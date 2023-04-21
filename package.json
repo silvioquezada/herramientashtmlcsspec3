@@ -1,13 +1,15 @@
 {
   "name": "herramientashtmlcsspec1",
   "version": "1.0.0",
-  "description": "",
+  "description": "Pec 1 de Herramientas Html y Css",
   "source": "src/index.html",
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
-    "prebuild": "rimraf dist .parcel-cache",
-    "start": "parcel",
-    "build": "parcel build"
+    "parcel:dev": "parcel",
+    "parcel:build": "parcel build",
+    "clean": "rimraf dist .parcel-cache",
+    "start": "npm-run-all clean parcel:dev",
+    "build": "npm-run-all clean parcel:build"
   },
   "repository": {
     "type": "git",
