@@ -2,8 +2,6 @@
 .boxitemspresentacion{
  
     display: flex;
-    
-    flex: 2;
     align-items: flex-start;
     justify-content: left;
 
@@ -38,8 +36,6 @@
     .boxitemspresentacion{
  
         display: flex;
-        
-        flex: 2;
         align-items: flex-start;
         justify-content: left;
 
@@ -67,8 +63,6 @@
 
     .boxitemspresentacion{
         display: flex;
-        
-        flex: 2;
         align-items: flex-start;
         justify-content: left;
 
@@ -85,8 +79,6 @@
 
     .boxpresentacion{
         display: flex;
-        
-        /*flex-flow: 2 column wrap;*/
         flex: 2;
         align-items: flex-start;
         justify-content: left;
