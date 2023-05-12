@@ -45,9 +45,21 @@
               <div class="glide">
                 <div class="glide__track" data-glide-el="track">
                   <ul class="glide__slides">
-                    <li class="glide__slide"><img class="fotoslider" src="img/portada1.jpg" alt="Imagen portada1"></li>
-                    <li class="glide__slide"><img class="fotoslider" src="img/portada2.jpg" alt="Imagen portada2"></li>
-                    <li class="glide__slide"><img class="fotoslider" src="img/portada3.jpg" alt="Imagen portada3"></li>
+                    <li class="glide__slide">
+                      <img class="fotoslider" src="img/portada/portada1normal.jpg" 
+                      srcset="img/portada/portada1normal.jpg 400w, img/portada/portada1mediana.jpg 800w, img/portada/portada1grande.jpg 1200w"
+                      sizes="(max-width: 400px) 100vw, (max-width: 800px) 100vw, 1200px" alt="Portada 1">
+                    </li>
+                    <li class="glide__slide">
+                      <img class="fotoslider" src="img/portada/portada2normal.jpg" 
+                      srcset="img/portada/portada2normal.jpg 400w, img/portada/portada2mediana.jpg 800w, img/portada/portada2grande.jpg 1200w"
+                      sizes="(max-width: 400px) 100vw, (max-width: 800px) 100vw, 1200px" alt="Portada 2">
+                    </li>
+                    <li class="glide__slide">
+                      <img class="fotoslider" src="img/portada/portada3normal.jpg" 
+                      srcset="img/portada/portada3normal.jpg 400w, img/portada/portada3mediana.jpg 800w, img/portada/portada3grande.jpg 1200w"
+                      sizes="(max-width: 400px) 100vw, (max-width: 800px) 100vw, 1200px" alt="Portada 3">
+                    </li>
                   </ul>
                 </div>
                 <div data-glide-el="controls">
@@ -63,16 +75,52 @@
 
           <article class="contenedorcontenido">
             <div>
-              <h1 class="textotitulo"><img src="img/portada2.jpg" alt="Omega nebula" class="svg-normal-mask"> Lugares Turísticos en El Oro</h1>
+              <h1 class="textotitulo"><img src="img/portada/portada2normal.jpg" alt="Omega nebula" class="svg-normal-mask"> Lugares Turísticos en El Oro</h1>
 
               
               <div class="seccioncategoriasclip">
-                <img src="img/portada1.jpg" alt="Portada 1" class="clip-circulo">
+
+                <!-- <img src="cat.jpg" alt="cat"
+  srcset="cat-160.jpg 160w, cat-320.jpg 320w, cat-640.jpg 640w, cat-1280.jpg 1280w"
+  sizes="(max-width: 480px) 100vw, (max-width: 900px) 33vw, 254px"> -->
+
+                
+
   
-                <img src="img/portada2.jpg" alt="Portada 2" class="clip-circulo">
+                <div class="boxcardcircle">
+                 
+                    
+                    <img class="clip-circulo" src="img/portada/portada1normal.jpg" 
+                srcset="img/portada/portada1normal.jpg 400w, img/portada/portada1mediana.jpg 800w, img/portada/portada1grande.jpg 1200w"
+                sizes="(max-width: 400px) 100vw, (max-width: 800px) 100vw, 1200px" alt="Portada 1">
+
+
+           
+                </div>
+
+  
+                <div class="boxcardcircle">
+           
+                    
+                    <img class="clip-circulo" src="img/portada/portada2normal.jpg" 
+                srcset="img/portada/portada2normal.jpg 400w, img/portada/portada2mediana.jpg 800w, img/portada/portada2grande.jpg 1200w"
+                sizes="(max-width: 400px) 100vw, (max-width: 800px) 100vw, 1200px" alt="Portada 2">
+                
+          
+                </div>
+  
+                <div class="boxcardcircle">
+         
+                    
+                  <img class="clip-circulo" src="img/portada/portada3normal.jpg" 
+                  srcset="img/portada/portada3normal.jpg 400w, img/portada/portada3mediana.jpg 800w, img/portada/portada3grande.jpg 1200w"
+                  sizes="(max-width: 400px) 100vw, (max-width: 800px) 100vw, 1200px" alt="Portada 3">
+                
+   
+                </div>
+                
     
-                <img src="img/portada3.jpg" alt="Portada 3" class="clip-circulo">
-    
+                
                 
               </div>
             
