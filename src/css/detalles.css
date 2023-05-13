@@ -59,8 +59,9 @@
 
     .fotosecciondetalle
     {
-        height: 300px;
+        height: 350px;
         width: 80%;
+        object-fit:cover;
     }
 
     .boxicono
