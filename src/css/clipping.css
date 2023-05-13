@@ -1,63 +1,45 @@
-/*
-.leaf-shaped-element {
-	float: left;
-	width: 400px;
-	height: 400px;
-	shape-outside: url(leaf.png);
-	shape-margin: 15px;
-	shape-image-threshold: 0.5;
-	background: #009966 url(path/to/background-image.jpg);
-	mask-image: url(leaf.png);
-}
-*/
-
 .seccioncategoriasclip{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .seccioncategoriasclip img{
 	height: 270px;
-    width: 100%;
+  width: 100%;
 }
 
-
-
 .clip-circulo {
-	/*clip-path: circle(30% at center);*/
-	/*height: 10%;
-    width: 100%;*/
 	clip-path: circle(40% at center);
-  }
+}
 
-  .svg-normal-mask {
+.svg-normal-mask {
 	height: 50px;
     width: 50px;
 	mask: url(../img/svg/hoja.svg) 0 repeat;
-  }
+}
 
 
-  .animacion{
+.animacion{
 	margin-top: 1%;
 	animation: 3s infinite alternate circle;
-  }
+}
 
-  @keyframes circle {
-	from {
-	  clip-path: circle(0%);
-	}
-	to {
-	  clip-path: circle(120px);
-	}
+@keyframes circle {
+  from {
+    clip-path: circle(0%);
   }
+  to {
+    clip-path: circle(120px);
+  }
+}
 
-  .boxcardcircle{
-    width: 90%;
-    border-radius:15px;
-    align-self: center;
-    justify-self: center;
+.boxcardcircle{
+  width: 90%;
+  border-radius:15px;
+  align-self: center;
+  justify-self: center;
 }
 
 @media screen and (min-width: 400px) {
@@ -88,7 +70,7 @@
 	}
 
 	.boxcardcircle{
-        width: 100%;
+        width: 95%;
         border-radius:15px;
         align-self: center;
         justify-self: center;
