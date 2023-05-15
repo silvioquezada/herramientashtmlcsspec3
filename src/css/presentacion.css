@@ -28,12 +28,6 @@
     height: 180px;
     object-fit: cover;
     object-position: bottom;
-
-    transition: transform .2s; 
-}
-
-.fotocardpresentacion:hover {
-    transform: scale(1.05); 
 }
 
 .boxitemspresentacion span{
@@ -75,12 +69,6 @@
         height: 200px;
         object-fit: cover;
         object-position: bottom;
-
-        transition: transform .2s; 
-    }
-
-    .fotocardpresentacion:hover {
-        transform: scale(1.05); 
     }
 }
 
@@ -128,19 +116,5 @@
         height: 150px;
         object-fit: cover;
         object-position: bottom;
-
-        transition: transform .2s;
-    }
-
-    .fotocardpresentacion:hover {
-        transform: scale(1.05);
-    }
-
-    .fotozoom{
-        transition: transform .2s;
-    }
-
-    .fotozoom:hover{
-        transform: scale(1.05);
     }
 }

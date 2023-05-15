@@ -42,6 +42,14 @@
   justify-self: center;
 }
 
+.fotozoom{
+  transition: transform .2s;
+}
+
+.fotozoom:hover{
+    transform: scale(1.05);
+}
+
 @media screen and (min-width: 400px) {
     .seccioncategoriasclip{
 		display: flex;
@@ -59,6 +67,14 @@
         align-self: center;
         justify-self: center;
     }
+
+    .fotozoom{
+      transition: transform .2s;
+    }
+  
+    .fotozoom:hover{
+        transform: scale(1.05);
+    }
 }
 
 @media screen and (min-width: 800px) {
@@ -74,6 +90,14 @@
         border-radius:15px;
         align-self: center;
         justify-self: center;
-    }
+  }
+
+  .fotozoom{
+    transition: transform .2s;
+  }
+
+  .fotozoom:hover{
+      transform: scale(1.05);
+  }
 }
   
