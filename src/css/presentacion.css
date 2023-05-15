@@ -70,19 +70,25 @@
         padding-right: 15%;
         padding-bottom: 40px;
         margin: 0;
+
+        
     }
 
     .boxitemspresentacionfondo{
         box-shadow: 2px 2px 8px 4px #d3d3d3d1;
         padding: 1%;
+
+       /*background-color: #51d242;*/
+        transition: background-color 0.5s ease-out;
     }
 
     .boxpresentacion{
         display: flex;
         flex: 2;
-        align-items: flex-start;
+        align-items: center;
         justify-content: left;
         gap: 1%;
+        
     
         padding-top: 0%;
         padding-left: 0%;
@@ -95,6 +101,17 @@
         height: 150px;
         object-fit: cover;
         object-position: bottom;
+
+        transition: transform .2s; 
+    }
+
+    .boxitemspresentacionfondo:hover {
+    background-color: #7ae5ee;
+    transition-duration: 2s;
+    }
+
+    .fotocardpresentacion:hover {
+        transform: scale(1.05); 
     }
     
 }
