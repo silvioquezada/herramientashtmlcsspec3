@@ -17,11 +17,13 @@
 .svg-normal-mask {
 	height: 50px;
     width: 50px;
-	mask: url(../img/svg/hoja.svg) 0 repeat;
+	mask: url(../img/svg/hoja.svg);
 }
 
 
 .animacion{
+  height: 25px;
+  width: 25px;
 	margin-top: 1%;
 	animation: 3s infinite alternate circle;
 }
