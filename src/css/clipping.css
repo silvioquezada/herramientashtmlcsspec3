@@ -10,13 +10,13 @@
   width: 100%;
 }
 
-.clip-circulo {
+.recortecirculo {
 	clip-path: circle(40% at center);
 }
 
 .enmascaramientomodelohoja {
 	height: 50px;
-    width: 50px;
+  width: 50px;
 	mask: url(../img/svg/hoja.svg);
 }
 
