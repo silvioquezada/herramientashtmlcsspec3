@@ -14,7 +14,7 @@
 	clip-path: circle(40% at center);
 }
 
-.svg-normal-mask {
+.enmascaramientomodelohoja {
 	height: 50px;
     width: 50px;
 	mask: url(../img/svg/hoja.svg);
