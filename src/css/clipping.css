@@ -94,10 +94,6 @@
         justify-self: center;
   }
 
-  .fotozoom{
-    transition: transform .2s;
-  }
-
   .fotozoom:hover{
       transform: scale(1.05);
   }
