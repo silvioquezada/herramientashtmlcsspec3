@@ -6,15 +6,7 @@ document.getElementById("enlace_menu").onclick = muestraMensaje;
 
   const config = {
     type: 'carousel',
-    perView: 1,
-    breakpoints:{
-      400:{
-        perView: 1
-      },
-      800:{
-        perView: 1
-      }
-    }
+    perView: 1
   };
   new Glide('.glide', config).mount();
 
