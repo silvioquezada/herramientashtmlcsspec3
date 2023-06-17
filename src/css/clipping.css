@@ -38,7 +38,7 @@
 }
 
 .boxcardcircle{
-  width: 90%;
+  height: 40vh;
   border-radius:15px;
   align-self: center;
   justify-self: center;
@@ -52,6 +52,34 @@
     transform: scale(1.05);
 }
 
+@media screen and (min-width: 250px) {
+  .boxcardcircle{
+    height: 42vh;
+    border-radius:15px;
+    align-self: center;
+    justify-self: center;
+  }
+}
+
+@media screen and (min-width: 300px) {
+  .boxcardcircle{
+    height: 47vh;
+    border-radius:15px;
+    align-self: center;
+    justify-self: center;
+  }
+}
+
+@media screen and (min-width: 350px) {
+  .boxcardcircle{
+    height: 50vh;
+    border-radius:15px;
+    align-self: center;
+    justify-self: center;
+  }
+}
+
+
 @media screen and (min-width: 400px) {
     .seccioncategoriasclip{
 		display: flex;
@@ -63,12 +91,17 @@
 	.boxcardcircle{
         width: 45%;
         border-radius:15px;
-		margin-top: 0%;
+		    margin-top: 0%;
         margin-bottom: 0%;
         margin-right: 1%;
         align-self: center;
         justify-self: center;
     }
+
+    .restarbox{
+      width: 45%;
+      height: 35vh;
+  }
 
     .fotozoom{
       transition: transform .2s;
@@ -77,6 +110,8 @@
     .fotozoom:hover{
         transform: scale(1.05);
     }
+
+
 }
 
 @media screen and (min-width: 800px) {
@@ -89,6 +124,7 @@
 
 	.boxcardcircle{
         width: 95%;
+        height: 100%;
         border-radius:15px;
         align-self: center;
         justify-self: center;
